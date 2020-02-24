@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link href='../css/style.css' rel='stylesheet'>
+		<link href='../css/reset.css' rel='stylesheet'>
+		<link href='../css/general.css' rel='stylesheet'>
+		<link href='../css/indexS.css' rel="stylesheet">
+		<title>Census Site</title>
+	</head>
+	<body>
+		<li><a class='active' href='/indexU'>Home</a></li>
+		<li><a href='/logout'>Log out</a></li>
+		<img class='banner-img' src='img/banner.jpg'>
+		<div class='banner-text'>
+			<h1>Welcome to Census Site</h1>
+			<h3>To help nation census research.</h3>
+		</div>
+		<div>
+		<h3>Questionnaire Completion</h3>
+		%for data in data_list:
+			<p>user_id:{{data[0]}}    completion: {{data[1]}}/6</p>
+		%end
+		<form action='/indexR' method='get'>
+            <input type='submit' value='Back'>
+        </form>
+	</body>
+</html>

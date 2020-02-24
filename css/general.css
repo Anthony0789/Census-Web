@@ -1,0 +1,141 @@
+/*General*/
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    background-color: #FCFCFC;
+}
+
+.container {
+    min-width: 1000px;
+    margin: 80px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+h2{
+    font-size: 1.5em;
+    margin: .83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4{
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5{
+    font-size: .83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: .67em;
+    margin: 2.33em 0;
+}
+
+p {
+    font-size: 1em;
+    display: block;
+    margin: 1em 0;
+
+}
+
+a {
+    text-decoration: none;
+    cursor: auto;
+    color: #00BFA5;
+}
+
+.rnd-btn {
+    border-radius: 10px;
+    padding: 0 40px;
+    color: white !important;
+    background-color: #689F38;
+    height: 60px;
+    font-size: 24px;
+    border: none;
+}
+
+a.rnd-btn {
+    display: inline-block;
+    padding: 18px 40px 0;
+}
+
+ul.hor-list {
+    display: inline;
+}
+
+ul.hor-list > li {
+    display: inline;
+}
+
+ul.hor-list li + li:before {
+    content: '•';
+    margin-right: 3px;
+    padding: 0 3px;
+    font-family: Arial, serif;
+    color: #bbb;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-control {
+    margin: 30px;
+}
+
+.user-form .form-control label {
+    color: #999;
+}
+
+.form-control input {
+    display:block;
+    height:30px;
+    margin: 5px 0;
+    padding:5px;
+    width:100%;
+    font-size: 1.33em;
+    border: none;
+    box-sizing: border-box;
+}
+
+.user-form .form-control input {
+    border-bottom: 3px solid #E91E63;
+}
+
+.form-control input[type=radio] {
+    display: inline;
+    width: initial;
+    height: initial;
+}
+
+.form-control ol, ul {
+    padding-left: 20px;
+}
+
+.form-control button, button.btn-material {
+    display:block;
+    margin: 0 auto 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.block-center {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}

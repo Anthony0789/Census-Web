@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>survey</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="page">
+  <div id="header">
+  <a>Australialia Census Site</a>
+  </div>
+  <div id="census">
+    <h3>CENSUS SURVEY</h3>
+    <form action="/completion" method="post">
+      <div class="name">
+      <p><span>name:</span><input name="name" type="text"></p>
+      <p><span>Identity Number:</span><input name="number" type="text"></p>
+      </div>
+      <div class="box">
+        <div class="title">1.How old are you?</div>
+        <p><input name="age" type="radio" value="lower_than_12">lower than 12</p>
+        <p><input name="age" type="radio" value="12-18">12-18</p>
+        <p><input name="age" type="radio" value="19-32">19-32</p>
+        <p><input name="age" type="radio" value="33-48">33-48</p>
+        <p><input name="age" type="radio" value="49-60">49-60</p>
+        <p><input name="age" type="radio" value="61-75">61-75</p>
+        <p><input name="age" type="radio" value="Over75">Over75</p>
+      </div>
+      <div class="box">
+        <div class="title">2.Your gender?</div>
+        <p><input name="gender" type="radio" value="male">male</p>
+        <p><input name="gender" type="radio" value="female">female</p>
+      </div>
+      <div class="box">
+        <div class="title">3.Where do you usually lived now?</div>
+        <p><input name="lived" type="radio" value="NSW">NSW</p>
+        <p><input name="lived" type="radio" value="QLD">QLD</p>
+        <p><input name="lived" type="radio" value="SA">SA</p>
+        <p><input name="lived" type="radio" value="WA">WA</p>
+        <p><input name="lived" type="radio" value="VAC">VAC</p>
+        <p><input name="lived" type="radio" value="TAC">TAC</p>
+        <p><input name="lived" type="radio" value="Overseas">Overseas</p>
+      </div>
+      <div class="box">
+        <div class="title">4.Where is your registered permanent residence?</div>
+        <p><input name="residence" type="radio" value="NSW">NSW</p>
+        <p><input name="residence" type="radio" value="QLD">QLD</p>
+        <p><input name="residence" type="radio" value="SA">SA</p>
+        <p><input name="residence" type="radio" value="WA">WA</p>
+        <p><input name="residence" type="radio" value="VAC">VAC</p>
+        <p><input name="residence" type="radio" value="TAC">TAC</p>
+      </div>
+      <div class="box">
+        <div class="title">5.How long have you leaved your registered permanent residence?</div>
+        <p><input name="date" type="radio" value="Less_than_one_month">Less than one month</p>
+        <p><input name="date" type="radio" value="One_to_six_month">One to six month</p>
+        <p><input name="date" type="radio" value="Six_to_twelve_month">Six to twelve month</p>
+        <p><input name="date" type="radio" value="Over_a_year">Over a year</p>
+        <p><input name="date" type="radio" value="Longer_than_3_years">Longer than 3 years</p>
+        <p><input name="date" type="radio" value="Never_leaved">Never leaved</p>
+      </div>
+      <div class="box">
+        <div class="title">6.Is the person of Aboriginal or Torres Strait Islander origin?</div>
+        <p><input name="origin" type="radio" value="No">No</p>
+        <p><input name="origin" type="radio" value="Yes,Aboriginal">Yes,Aboriginal</p>
+        <p><input name="origin" type="radio" value="Yes,Torres_Strait_Islander">Yes,Torres Strait Islander</p>
+      </div>
+      <input class="submit" type="submit" value="submit">
+    </form>
+  </div>
+</div>
+</body>
+</html>

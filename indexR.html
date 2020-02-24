@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link href='../css/style.css' rel='stylesheet'>
+		<link href="../css/reset.css" rel="stylesheet">
+		<link href="../css/general.css" rel="stylesheet">
+		<link href="../css/indexR.css" rel="stylesheet">
+		<title>Census Site</title>
+	</head>
+	<body>
+		<li><a href='/logout'>Log out</a></li>
+		<img class='banner-img' src='img/banner.jpg'>
+		<div class='banner-text'>
+			<h1>Welcome to Census Site</h1>
+			<h3>To help nation census research.</h3>
+		</div>
+		<div class='main'>
+			<form class='userinfo'>
+				<a>User Details:</a><br><br>
+				<label class='nameL' for='changeName'>Name:</label>
+				<label class='emailL' for='changeEmail'>Email:</label><br>
+				<p class='name'>{{user_name}}</p>
+				<p class='email'>{{user_email}}</p>
+			</form>
+			<div class='button'>
+				<form action='/edit', method='get'>
+					<input type='submit' value='Edit'/>
+				</form>
+				<form class='research' action='/data_collection' method='get'>
+					<input type='submit' value='View Data Collection'/>
+				</form><br>
+			</div>
+		</div>
+	</body>
+</html>

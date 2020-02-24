@@ -1,0 +1,124 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:arial;
+	font-size:18px;
+	color:#999;
+}
+a{
+	text-decoration:none;
+	color:#999;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.submit{
+	padding:10px 30px;
+	border:solid 1px #ccc;
+	cursor:pointer;
+	margin-top:50px;
+}
+
+.submit2{
+	padding:10px 30px;
+	border:solid 1px #ccc;
+	cursor:pointer;
+	margin-top:30px;
+	margin-left: 50px;
+}
+
+#page{
+	width:1024px;
+	margin:0 auto;
+}
+#header{
+	margin-top:50px;
+	text-align:center;
+	height:40px;
+	line-height:40px;
+	border-bottom:solid 1px #CCC;
+}
+#header a{
+	margin:0 20px;
+	padding:10px;
+}
+#header a:hover{
+	color:#000;
+}
+#content{
+	width:100%;
+	overflow:hidden;
+}
+#content .fl,#content .fr{
+	width:50%;
+}
+#content .fr{
+	margin-left:-1px;
+	border-left:solid 1px #ccc;
+}
+#content .login h2{
+	margin:0;
+	padding:20px 0;
+	text-align:center;
+	font-weight:normal;
+}
+#content .login{
+	text-align:center;
+}
+#content .login p span{
+	display:inline-block;
+	width:100px;
+	text-align:right;
+}
+#content .fr .login p span{
+	width:160px;
+}
+#content .login p input{
+	border:none;
+	height:30px;
+	outline:none;
+	margin-left:10px;
+	color:#999;
+	font-size:18px;
+	font-family:arial;
+	border-bottom:solid 1px #ccc;
+}
+#census h3{
+	text-align:center;
+}
+#census .name input{
+	border:none;
+	height:30px;
+	outline:none;
+	margin-left:10px;
+	color:#999;
+	font-size:18px;
+	font-family:arial;
+	border-bottom:solid 1px #ccc;
+}
+#site h1{
+	text-align:center;
+	font-weight:normal;
+}
+#site li{
+	display:inline-block;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+#site li span{
+	display:inline-block;
+	margin-left:10px;
+	width:80px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	border:solid 1px #ccc;
+}

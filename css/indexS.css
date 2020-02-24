@@ -1,0 +1,75 @@
+.banner-img {
+	position: relative;
+	width: 100%;
+	margin: 0;
+}
+
+.banner-text {
+	position: absolute;
+	top: 100px;
+	right: 0px;
+	color: orange;
+}
+
+.main {
+	position: relative;
+	background-color: #f9f9f9;
+}
+
+.userinfo {
+	position:relative;
+	top: 20px;
+	left: 100px;
+	font-size: 200%;
+}
+
+.nameL {
+	position: relative;
+	top: -30px;
+	font-size: 80%;
+}
+
+.name {
+	position: relative;
+	top: -50px;
+	font-size: 80%;
+}
+
+.emailL {
+	position: relative;
+	top: -30px;
+	left: 400px;
+	font-size: 80%;
+}
+
+.email {
+	position: relative;
+	top: -100px;
+	left: 485px;
+	font-size: 80%;
+}
+
+.button {
+	position: relative;
+	top: -195px;
+	left: 340px;
+}
+
+.changeinfo {
+	width: 20%;
+	border: px;
+}
+
+.request {
+	position: relative;
+	top: 140px;
+	left: -240px;
+	font-size: 200%;
+}
+
+.complete {
+	position: relative;
+	top: 140px;
+	left: -240px;
+	font-size: 200%;
+}
